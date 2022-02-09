@@ -1,0 +1,118 @@
+.container {
+  width: 375px;
+  margin: 0 auto;
+  background-color: hsl(233, 47%, 7%);
+  padding: 100px 10px;
+}
+.content {
+  margin: 0 auto;
+  width: 90%;
+  background-color: hsl(244, 38%, 16%);
+  text-align: center;
+  border-radius: 10px;
+}
+
+.image {
+  width: 100%;
+  height: 250px;
+  background-color: hsl(277, 64%, 61%, 0.9);
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.text-content {
+  padding: 20px;
+  font-size: 15px;
+}
+.head-text {
+  font-size: 1.4em;
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.head-text span {
+  color: hsl(277, 64%, 61%, 0.9);
+}
+.main-text {
+  font-size: 1em;
+  line-height: 25px;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+.tabs {
+  line-height: 15px;
+  text-transform: uppercase;
+}
+.tabs h3 {
+  margin-bottom: -5px;
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+.tabs p {
+  font-size: 0.8em;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+
+@media (min-width: 960px) {
+  .container {
+    width: 1440px;
+    margin: 0 auto;
+    background-color: hsl(233, 47%, 7%);
+    padding: 100px 10px;
+  }
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    width: 60%;
+    background-color: hsl(244, 38%, 16%);
+    /* text-align: center; */
+    border-radius: 10px;
+    text-align: left;
+    padding-left: 20px;
+  }
+
+  .tabs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    line-height: 15px;
+    text-transform: uppercase;
+  }
+  .text-content {
+    display: grid;
+    grid-row: 1/2;
+    padding: 20px;
+    font-size: 15px;
+    text-align: left;
+  }
+  .main-text {
+    text-align: left;
+  }
+  .image {
+    width: 100%;
+    height: 100%;
+    background-color: hsl(277, 64%, 61%, 0.9);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+}
