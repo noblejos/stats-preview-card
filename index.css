@@ -99,6 +99,8 @@ img {
   }
   .main-text {
     text-align: left;
+    font-size: 0.9em;
+    font-weight: ;
   }
   .image {
     width: 100%;
@@ -115,5 +117,17 @@ img {
     border-top-left-radius: 0px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+  }
+  .tabs h3 {
+    /* margin-bottom: -5px;
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter", sans-serif;
+    font-weight: 700; */
+  }
+  .tabs p {
+    font-size: 0.5em;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
   }
 }
