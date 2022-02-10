@@ -67,7 +67,7 @@ img {
 @media (min-width: 960px) {
   .container {
     width: 1440px;
-    margin: 0 auto;
+    margin: 150px auto;
     background-color: hsl(233, 47%, 7%);
     padding: 100px 10px;
   }
@@ -88,6 +88,7 @@ img {
     grid-template-columns: 1fr 1fr 1fr;
     line-height: 15px;
     text-transform: uppercase;
+    gap: 10px;
   }
   .text-content {
     display: grid;
